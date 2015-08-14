@@ -11,3 +11,15 @@ background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%) !important; /* 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ) !important; /* IE6-9 */
 
 }
+
+.imgBottWrapper{
+    position: absolute;
+    bottom: 0;
+	width: 100%
+}
+
+
+.footerImage {
+	display: block;
+    margin-left: auto
+}
