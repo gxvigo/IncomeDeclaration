@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Weekly Income Declaration</title>
+		<link rel="stylesheet" href="themes/Bootstrap.css">
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" />
+		<link rel="stylesheet" href="css/app.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script src="js/jquery.mobile-1.4.0.min.js"></script>
+        <script src="js/app.js"></script>
+	</head>
+	<body>
+		<div data-role="page" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>MSD... Simplification!</h1>
+			</div>
+			<div data-role="content" data-theme="a">
+
+				<a href="#" data-role="button" data-icon="star">Weekly Income Declaration</a>
+
+				<form action="#" method="get">
+
+					<p>Please insert deatail (hour per day and total weekly income) for the period</p>
+
+
+					<div data-role="fieldcontain">
+						<label for="name" id="date0">Mon</label>
+						<input type="text" name="monHours" id="monHours" placeholder="Worked hours" value="3"  />
+					</div>
+                    <div data-role="fieldcontain">
+						<label for="name" id="date1">Tue</label>
+						<input type="text" name="tueHours" id="tueHours" placeholder="Worked hours" value="6"  />
+					</div>
+                    <div data-role="fieldcontain">
+						<label for="name" id="date2">Wed</label>
+						<input type="text" name="wedHours" id="wedHours" placeholder="Worked hours" value="2"  />
+					</div>
+                    <div data-role="fieldcontain">
+						<label for="name" id="date3">Thu</label>
+						<input type="text" name="thuHours" id="thuHours" placeholder="Worked hours" value="0"  />
+					</div>
+                    <div data-role="fieldcontain">
+						<label for="name" id="date4">Fri</label>
+						<input type="text" name="friHours" id="friHours" placeholder="Worked hours" value="4"  />
+					</div>
+                    <div data-role="fieldcontain">
+						<label for="name" id="date5">Sat</label>
+						<input type="text" name="satHours" id="satHours" placeholder="Worked hours" value="0"  />
+					</div>
+                    <div data-role="fieldcontain">
+						<label for="name" id="date6">Sun</label>
+						<input type="text" name="sunHours" id="sunHours" placeholder="Worked hours" accept=""value="0"  />
+					</div>
+
+                    <br>
+                    
+                    <div data-role="fieldcontain">
+						<label for="name">Total weekly income</label>
+						<input type="text" name="WeeklyIncome" id="weeklyIncome" placeholder="Dollar income" accept=""value="130"  />
+					</div>
+                    
+                    
+					<div class="ui-body ui-body-b">
+						<fieldset class="ui-grid-a">
+							<div class="ui-block-b">
+                                <button id="prevWeekBtn" type="submit" data-theme="a">Previous week</button>
+                            </div>
+							<div class="ui-block-b">
+                             <button id="submitBtn" class="gradGreen" type="submit" data-theme="a">Submit</button>
+                            </div>							
+					    </fieldset>
+					</div>
+				</form>
+                
+                
+                
+
+			</div>
+		</div>
+	</body>
+</html>
